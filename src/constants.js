@@ -2,7 +2,7 @@
 
 export const TEXTS = [
   
-  "I'm Anas Bin Sohail",
+  "I'm Bilal Ahmed",
   'Hello there!'
 ];
 
