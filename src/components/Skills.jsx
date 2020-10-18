@@ -41,7 +41,7 @@ function Skills() {
 )}
         />
 
-        <h3 style={{ textAlign: 'center' }}>{Skill.psychology}</h3>
+        <h3 style={{ textAlign: 'center' }}>{Skill.speaking}</h3>
         <Popup
           content="Perfect"
           trigger={(
@@ -56,7 +56,7 @@ function Skills() {
 )}
         />
 
-        <h3 style={{ textAlign: 'center' }}>{Skill.speaking}</h3>
+        <h3 style={{ textAlign: 'center' }}>{Skill.psychology}</h3>
         <Popup
           content="Good"
           trigger={(
