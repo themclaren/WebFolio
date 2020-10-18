@@ -7,7 +7,7 @@ import {
   Nav,
   NavItem,
 } from 'reactstrap';
-import { DiCode } from 'react-icons/di';
+import { DiUbuntu } from 'react-icons/di';
 import { Link } from 'react-scroll';
 
 const Navigation = () => {
@@ -19,8 +19,8 @@ const Navigation = () => {
     <div>
       <Navbar light expand="md">
         <NavbarBrand href="/WebFolio">
-          <DiCode size="3em" color="black" />
-          Anas Bin Sohail
+          <DiUbuntu size="3em" color="purple" />
+          Bilal Ahmed
         </NavbarBrand>
 
         <NavbarToggler onClick={toggle} />
@@ -75,18 +75,19 @@ const Navigation = () => {
             </NavItem>
 
             <NavItem>
-              <Link
+              {/* <Link
                 to="experience"
                 spy
                 smooth
                 hashSpy
                 offset={50}
                 duration={500}
-              >
-                <button type="button" className="btn" id="exp-btn">
-                  Experience
-                </button>
-              </Link>
+              > */}
+                <a href="mailto:muhammad.ba19999@gmail.com"><button type="button" className="btn" id="exp-btn">
+               
+                  Contact
+                </button></a>
+              {/* </Link> */}
             </NavItem>
           </Nav>
         </Collapse>

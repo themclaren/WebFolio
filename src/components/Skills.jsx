@@ -9,9 +9,9 @@ function Skills() {
   return (
     <div className="container skills">
       <AnimatedOnScroll animationIn="slideInLeft">
-        <h1 id="languages" style={{ textAlign: 'center', marginTop: '100px' }}>Programming Languages that I know</h1>
+        <h1 id="languages" style={{ textAlign: 'center', marginTop: '100px' }}>Skills</h1>
 
-        <h3 style={{ textAlign: 'center' }}>{Skill.java}</h3>
+        <h3 style={{ textAlign: 'center' }}>{Skill.marketing}</h3>
         <Popup
           content="Highly Skilled"
           trigger={(
@@ -26,7 +26,7 @@ function Skills() {
 )}
         />
 
-        <h3 style={{ textAlign: 'center' }}>{Skill.js}</h3>
+        <h3 style={{ textAlign: 'center' }}>{Skill.neuro}</h3>
         <Popup
           content="Excellent"
           trigger={(
@@ -41,7 +41,7 @@ function Skills() {
 )}
         />
 
-        <h3 style={{ textAlign: 'center' }}>{Skill.C}</h3>
+        <h3 style={{ textAlign: 'center' }}>{Skill.psychology}</h3>
         <Popup
           content="Perfect"
           trigger={(
@@ -56,7 +56,7 @@ function Skills() {
 )}
         />
 
-        <h3 style={{ textAlign: 'center' }}>{Skill.python}</h3>
+        <h3 style={{ textAlign: 'center' }}>{Skill.speaking}</h3>
         <Popup
           content="Good"
           trigger={(

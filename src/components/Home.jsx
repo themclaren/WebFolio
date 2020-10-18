@@ -4,7 +4,7 @@ import TextTransition, { presets } from 'react-text-transition';
 import './css/shaper.css';
 import './css/home.css';
 import { Row, Col } from 'react-bootstrap';
-import { DiCode } from 'react-icons/di';
+import { DiUbuntu} from 'react-icons/di';
 import { Icon } from 'semantic-ui-react';
 import { TEXTS, profession } from '../constants';
 import {
@@ -73,17 +73,17 @@ function Home() {
             <h3 style={{ textAlign: 'center' }} id="connect">Connect With me Now ! </h3>
             <ul id="social-icons">
               <li>
-                <a rel="noopener noreferrer" href="https://github.com/thebinsohail" target="_blank">
+                <a rel="noopener noreferrer" href="https://github.com/themclaren" target="_blank">
                   <Icon aria-label="github" name="github" color="black" size="huge" />
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="https://www.facebook.com/anasbinsohail/" target="_blank">
+                <a rel="noopener noreferrer" href="https://www.facebook.com/bilalgemini911/" target="_blank">
                   <Icon aria-label="facebook" name="facebook" color="blue" size="huge" />
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="https://www.instagram.com/thebinsohail" target="_blank">
+                <a rel="noopener noreferrer" href="https://www.instagram.com/the.bilalahmed" target="_blank">
                   <Icon aria-label="instagram" name="instagram" color="red" size="huge" />
                 </a>
               </li>
@@ -93,12 +93,12 @@ function Home() {
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="https://twitter.com/thebinsohail" target="_blank">
+                <a rel="noopener noreferrer" href="https://twitter.com/" target="_blank">
                   <Icon aria-label="twitter" name="twitter" color="blue" size="huge" />
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/anasbinsohail/" target="_blank">
+                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/" target="_blank">
                   <Icon aria-label="linkedin" name="linkedin" color="blue" size="huge" />
                 </a>
               </li>
@@ -109,7 +109,7 @@ function Home() {
             <h3 id="profession">{profession}</h3>
           </Col>
 
-          <DiCode size="2em" color="black" />
+          <DiUbuntu size="2em" color="black" />
 
         </Row>
 

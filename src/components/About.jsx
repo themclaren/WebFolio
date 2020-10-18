@@ -30,7 +30,7 @@ function About() {
         <Col sm={6} lg={6}>
           <AnimatedOnScroll animationIn="bounceIn">
             <animated.img
-              src="images/anasbinsohail.jpg"
+              src="images/bilalahmed.jpg"
               width="30%"
               id="aboutme"
               onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}

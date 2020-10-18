@@ -6,13 +6,14 @@ export const TEXTS = [
   'Hello there!'
 ];
 
-export const profession = 'Developer | Software Engineer';
+export const profession = 'Business Analyst | Marketing Geek';
 
 export const Skill = {
-  java: 'Java',
-  js: 'JavaScript',
-  python: 'Python',
-  C: 'C',
+  marketing: 'Marketing and Management',
+  neuro: 'Neuro-Marketing',
+  psychology: 'Psychology',
+  speaking: 'Public Speaking',
+  python:'Python Programming Language'
 };
 
 export const genderOptions = [
@@ -22,17 +23,17 @@ export const genderOptions = [
 ];
 
 export const info = {
-  profession: ' Developer | Software Engineer',
-  question: 'Who Am I?',
-  personal: 'My name is Anas Bin Sohail and I am a Full Stack Web Developer',
-  intro: 'Educated and a motivated software engineering student and a quick learner, quick to ramp up with any existing development platform, and perform design, coding, debugging, and testing application and system software. Excellent interpersonal as well as communication skills and enjoys a high-pressure team environment',
+  // profession: ' ',
+  // question: '?',
+  personal: 'My name is Bilal Ahmed and I am a Business Analyst and a sale specialist by profession',
+  intro: 'A Marketing Geek, Management Leadership and Sales Specialist by profession have a diversified experience working for B2B and B2C Sales firms.  Actively approach targeted business clients. Search for new clients leads. Manage relationship with existing customers. Conduct market and a Critical thinker due to being a Chess Enthusiast.',
 };
 
 export const education = {
-  bachelors: 'Bachelor of Science in Software Engineering',
-  uni: 'Sir Syed University of Engg & Technology',
+  bachelors: 'Bachelor of Business Administration',
+  uni: 'Iqra University',
   year: '2019-2022',
-  college: 'Govt National College Karachi',
+  college: 'Army Public Schools and College, Karachi',
 };
 
 export const descriptions={
